@@ -255,7 +255,7 @@ $page = 'home';
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="delivery-box">
                         <h3>Small Delivery</h3>
-                        <h4 class="price">$150<span>starting</span></h4>
+                        <h4 class="price">$150<span> starting</span></h4>
                         <h5>2 helpers + truck for 1 hour</h5>
                         <p>Perfect for quick store pick-up and freight delivery</p>
                         <ul>
@@ -273,6 +273,180 @@ $page = 'home';
                             </li>
                         </ul>
                         <a href="Javascript:;" class="Quote-btn">Get Quote</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="delivery-box">
+                        <h3>Small Delivery</h3>
+                        <h4 class="price">$150<span> starting</span></h4>
+                        <h5>2 helpers + truck for 1 hour</h5>
+                        <p>Perfect for quick store pick-up and freight delivery</p>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Basic loading/unloading
+                            </li>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Local delivery only
+                            </li>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Standard protection
+                            </li>
+                            </li>
+                        </ul>
+                        <a href="Javascript:;" class="Quote-btn">Get Quote</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="delivery-box">
+                        <h3>Small Delivery</h3>
+                        <h4 class="price">$150<span> starting</span></h4>
+                        <h5>2 helpers + truck for 1 hour</h5>
+                        <p>Perfect for quick store pick-up and freight delivery</p>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Basic loading/unloading
+                            </li>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Local delivery only
+                            </li>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Standard protection
+                            </li>
+                            </li>
+                        </ul>
+                        <a href="Javascript:;" class="Quote-btn">Get Quote</a>
+                    </div>
+                </div>
+                <div class="timing-box">
+                    <div class="flexible">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-clock h-12 w-12 text-blue-700 mb-4">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <h3>Flexible Timing</h3>
+                        <p>Need more time? Additional hours are billed at $100/hour with 2 helpers.</p>
+                    </div>
+                    <div class="flexible">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-users h-12 w-12 text-green-600 mb-4">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <h3>Extra Helpers
+                        </h3>
+                        <p>Add additional helpers for $40/hour each for bigger jobs.</p>
+                    </div>
+                    <div class="flexible">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-truck h-12 w-12 text-orange-600 mb-4">
+                            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                            <path d="M15 18H9"></path>
+                            <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                            </path>
+                            <circle cx="17" cy="18" r="2"></circle>
+                            <circle cx="7" cy="18" r="2"></circle>
+                        </svg>
+                        <h3>Custom Quotes</h3>
+                        <p>Large or unique moves? Contact us for a personalized quote.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customers-sec">
+        <div class="container">
+            <div class="row">
+                <div class="head">
+                    <h2>What Our Customers Say</h2>
+                    <p>Join thousands of satisfied customers who trust Dolly for their moving and delivery needs.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="customer-review">
+                        <div class="icon">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"Those Guys Can Move made my move so much easier! The helpers were professional, careful with
+                            my furniture, and finished ahead of schedule. Couldn't be happier with the service."</p>
+                        <div class="name">
+                            <h4>Sarah Johnson <span>Austin, TX</span></h4>
+                            <h6>Apartment Move</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="customer-review">
+                        <div class="icon">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"Those Guys Can Move made my move so much easier! The helpers were professional, careful with
+                            my furniture, and finished ahead of schedule. Couldn't be happier with the service."</p>
+                        <div class="name">
+                            <h4>Sarah Johnson <span>Austin, TX</span></h4>
+                            <h6>Apartment Move</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="customer-review">
+                        <div class="icon">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                        <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p>"Those Guys Can Move made my move so much easier! The helpers were professional, careful with
+                            my furniture, and finished ahead of schedule. Couldn't be happier with the service."</p>
+                        <div class="name">
+                            <h4>Sarah Johnson <span>Austin, TX</span></h4>
+                            <h6>Apartment Move</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-box">
+                    <div class="completed-job">
+                        <h2>1K+</h2>
+                        <p>Completed Jobs</p>
+                    </div>
+                    <div class="completed-job">
+                        <h2>4.9/5</h2>
+                        <p>Average Rating</p>
+                    </div>
+                    <div class="completed-job">
+                        <h2>98%</h2>
+                        <p>On-Time Rate</p>
+                    </div>
+                    <div class="completed-job">
+                        <h2>24/7</h2>
+                        <p>Customer Support</p>
                     </div>
                 </div>
             </div>

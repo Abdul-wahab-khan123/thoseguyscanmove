@@ -1035,9 +1035,9 @@ footer .footer-bottom .privacy-links ul li a:hover {
 .two-btn .book-btn i {
     font-weight: 300;
 }
-
+.available-sec .city-search .start-btn .request-btn:hover,
 .two-btn .book-btn:hover {
-    background: #1E40AF;
+    background: #1E40AF !important;
     color: #fff;
     transform: translateY(-4px);
 }
@@ -1047,6 +1047,7 @@ footer .footer-bottom .privacy-links ul li a:hover {
     border: 2px solid #77777759;
     color: #111827;
 }
+
 
 .two-btn .book-btn.quote-btn:hover {
     transform: translateY(0);
@@ -1099,7 +1100,7 @@ footer .footer-bottom .privacy-links ul li a:hover {
 
 .services-sec .service-main {
     display: grid;
-    grid-template-columns: repeat(5 ,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 25px;
 }
 
@@ -1109,7 +1110,8 @@ footer .footer-bottom .privacy-links ul li a:hover {
     border-radius: 10px;
     transition: all .3s ease-in-out;
 }
-.services-sec .service-main .service-box:hover{
+
+.services-sec .service-main .service-box:hover {
     border: 1px solid #658bf486;
     transform: translateY(-8px);
     box-shadow: 3px 3px 3px 0px #8080802e;
@@ -1157,11 +1159,13 @@ footer .footer-bottom .privacy-links ul li a:hover {
     font-size: 13px;
     color: #4B5563;
 }
+
 .services-sec .service-main .service-box ul li::marker {
     color: var(--main-color);
     font-size: 16px;
 }
-.services-sec .dimand{
+
+.services-sec .dimand {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1170,86 +1174,104 @@ footer .footer-bottom .privacy-links ul li a:hover {
     border-radius: 15px;
     margin: 60px 0px 0px;
 }
-.services-sec .dimand .backgroung-check{
+
+.services-sec .dimand .backgroung-check {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 12px;
 }
-.services-sec .dimand .backgroung-check svg{
+
+.services-sec .dimand .backgroung-check svg {
     height: 32px;
     width: 32px;
     color: #16A34A;
 }
-.services-sec .dimand .backgroung-check h6{
+
+.services-sec .dimand .backgroung-check h6 {
     font-size: 15px;
     text-align: center;
     line-height: 19px;
 }
-.services-sec .dimand .backgroung-check span{
+
+.services-sec .dimand .backgroung-check span {
     display: block;
     font-size: 13px;
     color: #777;
     font-weight: 400;
 }
+
 /* services-sec */
 /* available-sec */
-.available-sec{
+.available-sec {
     position: relative;
     padding: 100px 0px;
     overflow: hidden;
 }
-.available-sec .head{}
-.available-sec .head h2{}
-.available-sec .head h2 span{
+
+.available-sec .head {}
+
+.available-sec .head h2 {}
+
+.available-sec .head h2 span {
     display: block;
     color: var(--main-color);
 }
-.available-sec .head p{}
-.available-sec .city-list{
+
+.available-sec .head p {}
+
+.available-sec .city-list {
     background: #E8EFFF;
     padding: 30px;
     border-radius: 20px;
     margin: 0px 0px 60px;
 }
-.available-sec .city-list h4{
+
+.available-sec .city-list h4 {
     text-align: center;
     font-size: 24px;
     font-weight: 600;
     margin: 0px 0px 20px;
 }
-.available-sec .city-list ul{
+
+.available-sec .city-list ul {
     display: grid;
-    grid-template-columns: repeat(4 ,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 14px;
 }
-.available-sec .city-list ul li{
+
+.available-sec .city-list ul li {
     text-align: center;
     background: #fff;
     padding: 13px 17px;
     border-radius: 7px;
 }
-.available-sec .city-list ul li a{
+
+.available-sec .city-list ul li a {
     color: #000000;
     font-size: 15px;
     font-weight: 400;
 }
-.available-sec .city-list h6{
+
+.available-sec .city-list h6 {
     text-align: center;
     font-size: 15px;
     font-weight: 500;
     color: var(--main-color);
     margin: 30px 0px 0px;
 }
-.available-sec .city-search{
+
+.available-sec .city-search {
     text-align: center;
 }
-.available-sec .city-search h4{
+
+.available-sec .city-search h4 {
     font-size: 16px;
     font-weight: 500;
     margin: 0px 0px 10px;
 }
-.available-sec .city-search p{
+
+.available-sec .city-search p {
     font-size: 14px;
     margin: 0px auto 30px;
     width: 70%;
@@ -1258,16 +1280,19 @@ footer .footer-bottom .privacy-links ul li a:hover {
     line-height: 23px;
     align-items: flex-start;
 }
-.available-sec .city-search p i{
+
+.available-sec .city-search p i {
     color: var(--main-color);
     font-size: 23px;
 }
-.available-sec .city-search .start-btn{
+
+.available-sec .city-search .start-btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.available-sec .city-search .start-btn .request-btn{
+
+.available-sec .city-search .start-btn .request-btn {
     background: var(--main-color);
     color: #fff;
     padding: 16px 28px;
@@ -1279,48 +1304,64 @@ footer .footer-bottom .privacy-links ul li a:hover {
     align-items: center;
     justify-content: center;
     gap: 12px;
+    transition: all 0.3s ease-in-out;
 }
-.available-sec .city-search .start-btn .request-btn:hover{
-    background: darken(var(--main-color), 5%);
-}
+
 /* available-sec */
 
 /* transparent-sec */
-.transparent-sec{
+.transparent-sec {
     padding: 100px 0px;
 }
-.transparent-sec .head{}
-.transparent-sec .head h2{}
-.transparent-sec .head p{}
-.transparent-sec .delivery-box{
+
+.transparent-sec .head {}
+
+.transparent-sec .head h2 {}
+
+.transparent-sec .head p {}
+
+.transparent-sec .delivery-box {
     border: 2px solid #8f8f8f4d;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0px 4px 10px 0px #80808061;
+    box-shadow: 0px 3px 3px 0px #80808061;
+    transition: all 0.3s ease;
 }
-.transparent-sec .delivery-box h3{
+.transparent-sec .delivery-box:hover{
+    box-shadow: 0px 7px 10px 0px #80808061;
+}
+.transparent-sec .delivery-box h3 {
     font-size: 24px;
     font-weight: 700;
     margin: 0px 0px 10px;
 }
-.transparent-sec .delivery-box h4{
+
+.transparent-sec .delivery-box h4 {
     font-size: 38px;
     font-weight: 600;
     color: var(--main-color);
     margin: 0px 0px 10px;
 }
-.transparent-sec .delivery-box h4 span{font-weight: 400;font-size: 15px;color: #777;}
-.transparent-sec .delivery-box h5{
+
+.transparent-sec .delivery-box h4 span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+}
+
+.transparent-sec .delivery-box h5 {
     font-size: 16px;
     color: var(--main-color);
     margin: 0px 0px 10px;
 }
-.transparent-sec .delivery-box p{
+
+.transparent-sec .delivery-box p {
     font-size: 15px;
     line-height: 25px;
     margin: 0px 0px 16px;
 }
-.transparent-sec .delivery-box ul{
+
+.transparent-sec .delivery-box ul {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -1328,7 +1369,8 @@ footer .footer-bottom .privacy-links ul li a:hover {
     flex-direction: column;
     margin: 0px 0px 30px;
 }
-.transparent-sec .delivery-box ul li{
+
+.transparent-sec .delivery-box ul li {
     font-size: 14px;
     color: #4B5563;
     display: flex;
@@ -1336,12 +1378,14 @@ footer .footer-bottom .privacy-links ul li a:hover {
     justify-content: center;
     gap: 13px;
 }
-.transparent-sec .delivery-box ul li i{
+
+.transparent-sec .delivery-box ul li i {
     color: #2BC764;
     font-size: 17px;
     font-weight: 400;
 }
-.transparent-sec .delivery-box .Quote-btn{
+
+.transparent-sec .delivery-box .Quote-btn {
     width: 100%;
     display: block;
     text-align: center;
@@ -1352,6 +1396,11 @@ footer .footer-bottom .privacy-links ul li a:hover {
     font-size: 16px;
     font-weight: 500;
 }
+
+.transparent-sec .delivery-box .Quote-btn:hover {
+    border-color: #93C5FD
+}
+
 /* transparent-sec */
 
 /*********************** home-page css Close ***********************/
