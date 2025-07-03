@@ -190,46 +190,93 @@ $page = 'home';
                     <div class="city-list">
                         <h4>Current Service Areas</h4>
                         <ul>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
-                           <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Home</a></li>
                         </ul>
+                        <h6>+ More cities coming soon!</h6>
+                    </div>
+                    <div class="city-search">
+                        <h4>Not in your city yet?</h4>
+                        <p><i class="fa-regular fa-location-dot"></i> We're constantly expanding. Join our waitlist to
+                            be notified when Those Guys Can Move becomes available in your area, or request service
+                            outside our current area (additional fees may apply for locations beyond our standard
+                            service zones).</p>
+                        <div class="start-btn">
+                            <a href="javascript:;" class="btn request-btn">Join Waitlist or Request Service <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
+    </section>
+
+    <section class="transparent-sec">
+        <div class="container">
+            <div class="row">
+                <div class="head">
+                    <h2>Transparent Pricing</h2>
+                    <p>No hidden fees, no surprises. Choose the package that fits your needs, or get a custom quote for
+                        larger projects.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="delivery-box">
+                        <h3>Small Delivery</h3>
+                        <h4 class="price">$150<span>starting</span></h4>
+                        <h5>2 helpers + truck for 1 hour</h5>
+                        <p>Perfect for quick store pick-up and freight delivery</p>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Basic loading/unloading
+                            </li>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Local delivery only
+                            </li>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Standard protection
+                            </li>
+                            </li>
+                        </ul>
+                        <a href="Javascript:;" class="Quote-btn">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 </main>
