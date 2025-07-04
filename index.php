@@ -66,10 +66,19 @@ $page = 'home';
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box h-8 w-8 text-blue-700"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-box h-8 w-8 text-blue-700">
+                                        <path
+                                            d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z">
+                                        </path>
+                                        <path d="m3.3 7 8.7 5 8.7-5"></path>
+                                        <path d="M12 22V12"></path>
+                                    </svg>
                                 </div>
                                 <h3>Just a Few Items</h3>
-                                <p>Perfect for moving just a few specific items like furniture, appliances, or boxes.</p>
+                                <p>Perfect for moving just a few specific items like furniture, appliances, or boxes.
+                                </p>
                                 <ul>
                                     <li>Item-Based Pricing</li>
                                     <li>Quick Service</li>
@@ -80,7 +89,16 @@ $page = 'home';
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package h-8 w-8 text-blue-700"><path d="m7.5 4.27 9 5.15"></path><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-package h-8 w-8 text-blue-700">
+                                        <path d="m7.5 4.27 9 5.15"></path>
+                                        <path
+                                            d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z">
+                                        </path>
+                                        <path d="m3.3 7 8.7 5 8.7-5"></path>
+                                        <path d="M12 22V12"></path>
+                                    </svg>
                                 </div>
                                 <h3>Furniture Delivery</h3>
                                 <p>Get your furniture and large items delivered safely from stores to your home.</p>
@@ -94,7 +112,17 @@ $page = 'home';
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-blue-700"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-blue-700">
+                                        <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                        <path d="M15 18H9"></path>
+                                        <path
+                                            d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                        </path>
+                                        <circle cx="17" cy="18" r="2"></circle>
+                                        <circle cx="7" cy="18" r="2"></circle>
+                                    </svg>
                                 </div>
                                 <h3>General Freight Delivery</h3>
                                 <p>Move anything that needs a truck - from appliances to antiques.</p>
@@ -108,7 +136,15 @@ $page = 'home';
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 h-8 w-8 text-blue-700"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" x2="10" y1="11" y2="17"></line><line x1="14" x2="14" y1="11" y2="17"></line></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="lucide lucide-trash2 h-8 w-8 text-blue-700">
+                                        <path d="M3 6h18"></path>
+                                        <path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path>
+                                        <path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path>
+                                        <line x1="10" x2="10" y1="11" y2="17"></line>
+                                        <line x1="14" x2="14" y1="11" y2="17"></line>
+                                    </svg>
                                 </div>
                                 <h3>Junk Removal</h3>
                                 <p>Clear out unwanted items responsibly with our eco-friendly disposal service.</p>
@@ -158,17 +194,25 @@ $page = 'home';
             </div>
     </section>
 
-    <section class="how-those-guy">
+    <section class="how-those-guy" id="how-it-works">
         <div class="container">
             <div class="row">
                 <div class="head">
                     <h2>How Those Guys Can Move Works</h2>
-                    <p>Getting help with your move or delivery is as easy as 1-2-3-4. Book in minutes, and we'll handle the rest.</p>
+                    <p>Getting help with your move or delivery is as easy as 1-2-3-4. Book in minutes, and we'll handle
+                        the rest.</p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="online-box">
                         <div class="svg-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-8 w-8 text-blue-700"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-calendar h-8 w-8 text-blue-700">
+                                <path d="M8 2v4"></path>
+                                <path d="M16 2v4"></path>
+                                <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                <path d="M3 10h18"></path>
+                            </svg>
                         </div>
                         <div class="box">
                             <h3>Book Online</h3>
@@ -183,7 +227,14 @@ $page = 'home';
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="online-box">
                         <div class="svg-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-8 w-8 text-blue-700"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-users h-8 w-8 text-blue-700">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
                         </div>
                         <div class="box">
                             <h3>Get Matched</h3>
@@ -198,7 +249,17 @@ $page = 'home';
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="online-box">
                         <div class="svg-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-blue-700"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-blue-700">
+                                <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                <path d="M15 18H9"></path>
+                                <path
+                                    d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                </path>
+                                <circle cx="17" cy="18" r="2"></circle>
+                                <circle cx="7" cy="18" r="2"></circle>
+                            </svg>
                         </div>
                         <div class="box">
                             <h3>We Handle It</h3>
@@ -213,7 +274,12 @@ $page = 'home';
                 <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                     <div class="online-box">
                         <div class="svg-box">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-8 w-8 text-blue-700"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><path d="m9 11 3 3L22 4"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-check-circle h-8 w-8 text-blue-700">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <path d="m9 11 3 3L22 4"></path>
+                            </svg>
                         </div>
                         <div class="box">
                             <h3>Job Complete</h3>
@@ -224,6 +290,9 @@ $page = 'home';
                             <p>4</p>
                         </div>
                     </div>
+                </div>
+                <div class="start-btn">
+                    <a href="javascript:;" class="btn request-btn">Get Started Today</a>
                 </div>
             </div>
         </div>
@@ -368,7 +437,8 @@ $page = 'home';
                         <p>Complete solution for larger homes and offices</p>
                         <ul>
                             <li>
-                                <i class="fa-solid fa-check"></i> Perfect for 3-4 bedroom homes and mid-sized to large office spaces
+                                <i class="fa-solid fa-check"></i> Perfect for 3-4 bedroom homes and mid-sized to large
+                                office spaces
                             </li>
                             </li>
                             <li>
@@ -499,7 +569,8 @@ $page = 'home';
                             <li><i class="fa-solid fa-star"></i></li>
                         </ul>
                         <p>
-                            <i>"Used Those Guys Can Move for furniture delivery from IKEA. They assembled everything perfectly and cleaned up after themselves. Will definitely use again!"</i>
+                            <i>"Used Those Guys Can Move for furniture delivery from IKEA. They assembled everything
+                                perfectly and cleaned up after themselves. Will definitely use again!"</i>
                         </p>
                         <div class="name">
                             <h4>Michael Chen <span>Dallas, TX</span></h4>
@@ -529,7 +600,8 @@ $page = 'home';
                             <li><i class="fa-solid fa-star"></i></li>
                         </ul>
                         <p>
-                            <i>"The booking process was simple, pricing was transparent, and the team arrived exactly on time. Made what could have been a stressful day completely painless."</i>
+                            <i>"The booking process was simple, pricing was transparent, and the team arrived exactly on
+                                time. Made what could have been a stressful day completely painless."</i>
                         </p>
                         <div class="name">
                             <h4>Emily Rodriguez <span>Home Move</span></h4>

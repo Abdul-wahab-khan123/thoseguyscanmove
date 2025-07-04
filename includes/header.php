@@ -38,7 +38,7 @@
                                 <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">How it Works</a>
+                                <a class="nav-link" href="#how-it-works">How it Works</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#city">Cities</a>
