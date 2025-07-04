@@ -34,7 +34,7 @@ $page = 'home';
         </div>
     </section>
 
-    <section class="services-sec">
+    <section class="services-sec" id="services">
         <div class="container">
             <div class="row">
                 <div class="head">
@@ -66,76 +66,56 @@ $page = 'home';
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-home h-8 w-8 text-blue-700">
-                                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box h-8 w-8 text-blue-700"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
                                 </div>
-                                <h3>Full-Service<br> Moving</h3>
-                                <p>Complete moving services with professional helpers and trucks for any size move.</p>
+                                <h3>Just a Few Items</h3>
+                                <p>Perfect for moving just a few specific items like furniture, appliances, or boxes.</p>
                                 <ul>
-                                    <li>Perfect Solution for Every Move</li>
-                                    <li>Last Minute Availability</li>
-                                    <li>Residential and Commercial</li>
+                                    <li>Item-Based Pricing</li>
+                                    <li>Quick Service</li>
+                                    <li>Flexible Scheduling</li>
                                 </ul>
                             </div>
                         </a>
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-home h-8 w-8 text-blue-700">
-                                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package h-8 w-8 text-blue-700"><path d="m7.5 4.27 9 5.15"></path><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg>
                                 </div>
-                                <h3>Full-Service<br> Moving</h3>
-                                <p>Complete moving services with professional helpers and trucks for any size move.</p>
+                                <h3>Furniture Delivery</h3>
+                                <p>Get your furniture and large items delivered safely from stores to your home.</p>
                                 <ul>
-                                    <li>Perfect Solution for Every Move</li>
-                                    <li>Last Minute Availability</li>
-                                    <li>Residential and Commercial</li>
+                                    <li>Store Pickup</li>
+                                    <li>White Glove Service</li>
+                                    <li>Assembly Available</li>
                                 </ul>
                             </div>
                         </a>
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-home h-8 w-8 text-blue-700">
-                                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-blue-700"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
                                 </div>
-                                <h3>Full-Service<br> Moving</h3>
-                                <p>Complete moving services with professional helpers and trucks for any size move.</p>
+                                <h3>General Freight Delivery</h3>
+                                <p>Move anything that needs a truck - from appliances to antiques.</p>
                                 <ul>
-                                    <li>Perfect Solution for Every Move</li>
-                                    <li>Last Minute Availability</li>
-                                    <li>Residential and Commercial</li>
+                                    <li>Same-Day Available</li>
+                                    <li>Secure Transport</li>
+                                    <li>Flexible Scheduling</li>
                                 </ul>
                             </div>
                         </a>
                         <a href="JavaScript:;">
                             <div class="service-box">
                                 <div class="icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="lucide lucide-home h-8 w-8 text-blue-700">
-                                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 h-8 w-8 text-blue-700"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" x2="10" y1="11" y2="17"></line><line x1="14" x2="14" y1="11" y2="17"></line></svg>
                                 </div>
-                                <h3>Full-Service<br> Moving</h3>
-                                <p>Complete moving services with professional helpers and trucks for any size move.</p>
+                                <h3>Junk Removal</h3>
+                                <p>Clear out unwanted items responsibly with our eco-friendly disposal service.</p>
                                 <ul>
-                                    <li>Perfect Solution for Every Move</li>
-                                    <li>Last Minute Availability</li>
-                                    <li>Residential and Commercial</li>
+                                    <li>Donation Sorting</li>
+                                    <li>Eco-Friendly</li>
+                                    <li>Full Cleanup</li>
                                 </ul>
                             </div>
                         </a>
@@ -178,7 +158,7 @@ $page = 'home';
             </div>
     </section>
 
-    <section class="available-sec">
+    <section class="available-sec" id="city">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="head">
@@ -190,42 +170,50 @@ $page = 'home';
                     <div class="city-list">
                         <h4>Current Service Areas</h4>
                         <ul>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
-                            <li><a href="Javascript:;">Home</a></li>
+                            <li><a href="Javascript:;">Addison</a></li>
+                            <li><a href="Javascript:;">Aledo</a></li>
+                            <li><a href="Javascript:;">Allen</a></li>
+                            <li><a href="Javascript:;">Alvord</a></li>
+                            <li><a href="Javascript:;">Anna</a></li>
+                            <li><a href="Javascript:;">Arlington</a></li>
+                            <li><a href="Javascript:;">Argyle</a></li>
+                            <li><a href="Javascript:;">Aubrey</a></li>
+                            <li><a href="Javascript:;">Azle</a></li>
+                            <li><a href="Javascript:;">Bedford</a></li>
+                            <li><a href="Javascript:;">Benbrook</a></li>
+                            <li><a href="Javascript:;">Blue Mound</a></li>
+                            <li><a href="Javascript:;">Burleson</a></li>
+                            <li><a href="Javascript:;">Colleyville</a></li>
+                            <li><a href="Javascript:;">Coppell</a></li>
+                            <li><a href="Javascript:;">Crowley</a></li>
+                            <li><a href="Javascript:;">Dallas</a></li>
+                            <li><a href="Javascript:;">Denton</a></li>
+                            <li><a href="Javascript:;">Euless</a></li>
+                            <li><a href="Javascript:;">Flower Mound</a></li>
+                            <li><a href="Javascript:;">Fort Worth</a></li>
+                            <li><a href="Javascript:;">Frisco</a></li>
+                            <li><a href="Javascript:;">Garland</a></li>
+                            <li><a href="Javascript:;">Grand Prairie</a></li>
+                            <li><a href="Javascript:;">Grapevine</a></li>
+                            <li><a href="Javascript:;">Haltom City</a></li>
+                            <li><a href="Javascript:;">Haslet</a></li>
+                            <li><a href="Javascript:;">Hurst</a></li>
+                            <li><a href="Javascript:;">Irving</a></li>
+                            <li><a href="Javascript:;">Keller</a></li>
+                            <li><a href="Javascript:;">Kennedale</a></li>
+                            <li><a href="Javascript:;">Lewisville</a></li>
+                            <li><a href="Javascript:;">Mansfield</a></li>
+                            <li><a href="Javascript:;">Mesquite</a></li>
+                            <li><a href="Javascript:;">McKinney</a></li>
+                            <li><a href="Javascript:;">Midlothian</a></li>
+                            <li><a href="Javascript:;">North Richland Hills</a></li>
+                            <li><a href="Javascript:;">Plano</a></li>
+                            <li><a href="Javascript:;">Red Oak</a></li>
+                            <li><a href="Javascript:;">Richardson</a></li>
+                            <li><a href="Javascript:;">Rowlett</a></li>
+                            <li><a href="Javascript:;">Rockwall</a></li>
+                            <li><a href="Javascript:;">Sachse</a></li>
+                            <li><a href="Javascript:;">Southlake</a></li>
                         </ul>
                         <h6>+ More cities coming soon!</h6>
                     </div>
@@ -244,7 +232,7 @@ $page = 'home';
             </div>
     </section>
 
-    <section class="transparent-sec">
+    <section class="transparent-sec" id="pricing">
         <div class="container">
             <div class="row">
                 <div class="head">
@@ -277,21 +265,24 @@ $page = 'home';
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="delivery-box">
-                        <h3>Small Delivery</h3>
-                        <h4 class="price">$150<span> starting</span></h4>
-                        <h5>2 helpers + truck for 1 hour</h5>
-                        <p>Perfect for quick store pick-up and freight delivery</p>
+                        <h3>Standard Moving</h3>
+                        <h4 class="price">$250<span> starting</span></h4>
+                        <h5>2 helpers + truck for 2 hours</h5>
+                        <p>Most popular option for household moves</p>
                         <ul>
                             <li>
-                                <i class="fa-solid fa-check"></i> Basic loading/unloading
+                                <i class="fa-solid fa-check"></i> Perfect for 1-2 bedroom apt
                             </li>
                             </li>
                             <li>
-                                <i class="fa-solid fa-check"></i> Local delivery only
+                                <i class="fa-solid fa-check"></i> Loading & unloading
                             </li>
                             </li>
                             <li>
-                                <i class="fa-solid fa-check"></i> Standard protection
+                                <i class="fa-solid fa-check"></i> Basic assembly service
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Enhanced protection
                             </li>
                             </li>
                         </ul>
@@ -300,21 +291,27 @@ $page = 'home';
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="delivery-box">
-                        <h3>Small Delivery</h3>
-                        <h4 class="price">$150<span> starting</span></h4>
-                        <h5>2 helpers + truck for 1 hour</h5>
-                        <p>Perfect for quick store pick-up and freight delivery</p>
+                        <h3>Large Moving</h3>
+                        <h4 class="price">$450<span> starting</span></h4>
+                        <h5>2 helpers + truck for 2 hours</h5>
+                        <p>Complete solution for larger homes and offices</p>
                         <ul>
                             <li>
-                                <i class="fa-solid fa-check"></i> Basic loading/unloading
+                                <i class="fa-solid fa-check"></i> Perfect for 3-4 bedroom homes and mid-sized to large office spaces
                             </li>
                             </li>
                             <li>
-                                <i class="fa-solid fa-check"></i> Local delivery only
+                                <i class="fa-solid fa-check"></i> Full packing service
                             </li>
                             </li>
                             <li>
-                                <i class="fa-solid fa-check"></i> Standard protection
+                                <i class="fa-solid fa-check"></i> Furniture disassembly
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Premium protection
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i> Priority Scheduling
                             </li>
                             </li>
                         </ul>
@@ -324,31 +321,33 @@ $page = 'home';
                 <div class="timing-box">
                     <div class="flexible">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-clock h-12 w-12 text-blue-700 mb-4">
+                            stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-clock h-12 w-12 mb-4">
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
                         </svg>
+
                         <h3>Flexible Timing</h3>
                         <p>Need more time? Additional hours are billed at $100/hour with 2 helpers.</p>
                     </div>
                     <div class="flexible">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-users h-12 w-12 text-green-600 mb-4">
+                            stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-users h-12 w-12 mb-4">
                             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                             <circle cx="9" cy="7" r="4"></circle>
                             <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                         </svg>
+
                         <h3>Extra Helpers
                         </h3>
                         <p>Add additional helpers for $40/hour each for bigger jobs.</p>
                     </div>
                     <div class="flexible">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="lucide lucide-truck h-12 w-12 text-orange-600 mb-4">
+                            stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-truck h-12 w-12 mb-4">
                             <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
                             <path d="M15 18H9"></path>
                             <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
@@ -356,6 +355,7 @@ $page = 'home';
                             <circle cx="17" cy="18" r="2"></circle>
                             <circle cx="7" cy="18" r="2"></circle>
                         </svg>
+
                         <h3>Custom Quotes</h3>
                         <p>Large or unique moves? Contact us for a personalized quote.</p>
                     </div>
@@ -374,7 +374,16 @@ $page = 'home';
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="customer-review">
                         <div class="icon">
-                            <i class="fa-solid fa-quote-right"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-quote h-8 w-8 text-blue-700">
+                                <path
+                                    d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                                </path>
+                                <path
+                                    d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z">
+                                </path>
+                            </svg>
                         </div>
                         <ul>
                             <li><i class="fa-solid fa-star"></i></li>
@@ -383,8 +392,14 @@ $page = 'home';
                             <li><i class="fa-solid fa-star"></i></li>
                             <li><i class="fa-solid fa-star"></i></li>
                         </ul>
-                        <p>"Those Guys Can Move made my move so much easier! The helpers were professional, careful with
-                            my furniture, and finished ahead of schedule. Couldn't be happier with the service."</p>
+                        <p>
+                            <i>
+                                "Those Guys Can Move made my move so much easier! The helpers were professional,
+                                careful
+                                with
+                                my furniture, and finished ahead of schedule. Couldn't be happier with the service."
+                            </i>
+                        </p>
                         <div class="name">
                             <h4>Sarah Johnson <span>Austin, TX</span></h4>
                             <h6>Apartment Move</h6>
@@ -394,7 +409,16 @@ $page = 'home';
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="customer-review">
                         <div class="icon">
-                            <i class="fa-solid fa-quote-right"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-quote h-8 w-8 text-blue-700">
+                                <path
+                                    d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                                </path>
+                                <path
+                                    d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z">
+                                </path>
+                            </svg>
                         </div>
                         <ul>
                             <li><i class="fa-solid fa-star"></i></li>
@@ -403,18 +427,28 @@ $page = 'home';
                             <li><i class="fa-solid fa-star"></i></li>
                             <li><i class="fa-solid fa-star"></i></li>
                         </ul>
-                        <p>"Those Guys Can Move made my move so much easier! The helpers were professional, careful with
-                            my furniture, and finished ahead of schedule. Couldn't be happier with the service."</p>
+                        <p>
+                            <i>"Used Those Guys Can Move for furniture delivery from IKEA. They assembled everything perfectly and cleaned up after themselves. Will definitely use again!"</i>
+                        </p>
                         <div class="name">
-                            <h4>Sarah Johnson <span>Austin, TX</span></h4>
-                            <h6>Apartment Move</h6>
+                            <h4>Michael Chen <span>Dallas, TX</span></h4>
+                            <h6>Furniture Delivery</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
                     <div class="customer-review">
                         <div class="icon">
-                            <i class="fa-solid fa-quote-right"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-quote h-8 w-8 text-blue-700 ">
+                                <path
+                                    d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                                </path>
+                                <path
+                                    d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z">
+                                </path>
+                            </svg>
                         </div>
                         <ul>
                             <li><i class="fa-solid fa-star"></i></li>
@@ -423,11 +457,12 @@ $page = 'home';
                             <li><i class="fa-solid fa-star"></i></li>
                             <li><i class="fa-solid fa-star"></i></li>
                         </ul>
-                        <p>"Those Guys Can Move made my move so much easier! The helpers were professional, careful with
-                            my furniture, and finished ahead of schedule. Couldn't be happier with the service."</p>
+                        <p>
+                            <i>"The booking process was simple, pricing was transparent, and the team arrived exactly on time. Made what could have been a stressful day completely painless."</i>
+                        </p>
                         <div class="name">
-                            <h4>Sarah Johnson <span>Austin, TX</span></h4>
-                            <h6>Apartment Move</h6>
+                            <h4>Emily Rodriguez <span>Home Move</span></h4>
+                            <h6>Grand Prairie, TX</h6>
                         </div>
                     </div>
                 </div>

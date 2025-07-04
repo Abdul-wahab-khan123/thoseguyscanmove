@@ -35,22 +35,22 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">Services</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="javascript:;">How it Works</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">Cities</a>
+                                <a class="nav-link" href="#city">Cities</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">Pricing</a>
+                                <a class="nav-link" href="#pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">Business</a>
+                                <a class="nav-link" href="business.php">Business</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:;">Become a Guy!</a>
+                                <a class="nav-link" href="drivers.php">Become a Guy!</a>
                             </li>
                         </ul>
 
