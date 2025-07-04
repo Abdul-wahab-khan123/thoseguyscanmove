@@ -158,6 +158,77 @@ $page = 'home';
             </div>
     </section>
 
+    <section class="how-those-guy">
+        <div class="container">
+            <div class="row">
+                <div class="head">
+                    <h2>How Those Guys Can Move Works</h2>
+                    <p>Getting help with your move or delivery is as easy as 1-2-3-4. Book in minutes, and we'll handle the rest.</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="online-box">
+                        <div class="svg-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-8 w-8 text-blue-700"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+                        </div>
+                        <div class="box">
+                            <h3>Book Online</h3>
+                            <p>Select your service, choose your date and time, and get an instant quote.</p>
+                            <h6>Easy online booking with flexible scheduling options</h6>
+                        </div>
+                        <div class="num">
+                            <p>1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="online-box">
+                        <div class="svg-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-8 w-8 text-blue-700"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <div class="box">
+                            <h3>Get Matched</h3>
+                            <p>We assign vetted helpers and a truck perfectly suited for your needs.</p>
+                            <h6>Background-checked professionals with 5-star ratings</h6>
+                        </div>
+                        <div class="num">
+                            <p>2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="online-box">
+                        <div class="svg-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck h-8 w-8 text-blue-700"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg>
+                        </div>
+                        <div class="box">
+                            <h3>We Handle It</h3>
+                            <p>Our team arrives on time and takes care of everything safely and efficiently.</p>
+                            <h6>Professional equipment and careful handling guaranteed</h6>
+                        </div>
+                        <div class="num">
+                            <p>3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="online-box">
+                        <div class="svg-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle h-8 w-8 text-blue-700"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><path d="m9 11 3 3L22 4"></path></svg>
+                        </div>
+                        <div class="box">
+                            <h3>Job Complete</h3>
+                            <p>Rate your experience and enjoy your stress-free move or delivery.</p>
+                            <h6>Quality guaranteed with our satisfaction promise</h6>
+                        </div>
+                        <div class="num">
+                            <p>4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="available-sec" id="city">
         <div class="container">
             <div class="row justify-content-center">
