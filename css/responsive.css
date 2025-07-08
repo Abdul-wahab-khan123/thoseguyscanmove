@@ -4,7 +4,56 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1444px) {}
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .home-banner-wrap .content h1 {
+        font-size: 50px;
+    }
+
+    .home-banner-wrap {
+        padding: 72px 0 100px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .services-sec .service-main .service-box p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .how-those-guy {
+        padding: 70px 0px;
+    }
+
+    .how-those-guy .online-box .box h6 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .how-those-guy .online-box .box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .transparent-sec .timing-box .flexible p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .growing-businesses {
+        padding: 70px 0px 0px;
+    }
+
+    .earnings-sec .competitive {
+        padding: 25px 30px;
+    }
+
+    .earnings-sec .competitive h6 {
+        font-size: 12px;
+    }
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
 

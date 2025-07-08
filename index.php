@@ -18,9 +18,11 @@ $page = 'home';
                         <p>Book trusted helpers and trucks for moving, delivery, and more. From furniture delivery to
                             full home moves, we've got you covered.</p>
                         <div class="two-btn">
-                            <a href="javascript:;" class="btn book-btn">Book Your Move <i
+                            <a href="javascript:;" class="btn book-btn" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Book Your Move <i
                                     class="fa-solid fa-arrow-right"></i></a>
-                            <a href="javascript:;" class="btn book-btn quote-btn">Get Instant Quote</a>
+                            <a href="javascript:;" class="btn book-btn quote-btn" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Get Instant Quote</a>
                         </div>
                         <h6><i class="fa-regular fa-location-dot"></i> Available in 40+ cities across Texas</h6>
                     </div>
@@ -193,7 +195,7 @@ $page = 'home';
                 </div>
             </div>
     </section>
-
+    
     <section class="how-those-guy" id="how-it-works">
         <div class="container">
             <div class="row">

@@ -611,6 +611,14 @@ header .header-btm .side-ul .sd-li .btn-started {
     border-radius: 10px;
 }
 
+header .header-btm .side-ul .sd-li .btn-started.green-color {
+    background-color: #15803D;
+}
+
+.green-color:hover {
+    background-color: #166534 !important;
+}
+
 header .header-btm .side-ul .sd-li .btn-started:hover {
     background: #1E40AF;
 }
@@ -1026,7 +1034,6 @@ footer .footer-bottom .privacy-links ul li a:hover {
 
 .home-banner-wrap .content h1 span {
     display: block;
-    font-size: 60px;
     color: var(--main-color);
 }
 
@@ -1883,6 +1890,10 @@ footer .footer-bottom .privacy-links ul li a:hover {
     background: #15803D;
 }
 
+.drive-your-sec .head .start-btn .request-btn:hover {
+    background-color: #166534 !important;
+}
+
 /* drive-your-sec */
 /* earnings-sec */
 .earnings-sec {
@@ -2209,14 +2220,17 @@ footer .footer-bottom .privacy-links ul li a:hover {
     font-weight: 400;
     text-align: end;
 }
+
 /* stories-sec */
 /* journey-sec */
-.journey-sec{
+.journey-sec {
     background: transparent;
 }
-.journey-sec .ready-box{
+
+.journey-sec .ready-box {
     background: linear-gradient(to right, #15803d, #1e40af);
 }
+
 .operations-sec.journey-sec .ready-box .today-btn .get-today-btn {
     color: #166534;
 }
@@ -2224,24 +2238,29 @@ footer .footer-bottom .privacy-links ul li a:hover {
 .operations-sec.journey-sec .ready-box .today-btn .get-today-btn.sales-btn {
     color: #fff;
 }
-.operations-sec.journey-sec .ready-box .today-btn .get-today-btn.sales-btn:hover{
-   background-color: transparent;
-   color: #fff;
+
+.operations-sec.journey-sec .ready-box .today-btn .get-today-btn.sales-btn:hover {
+    background-color: transparent;
+    color: #fff;
 }
+
 /* journey-sec */
 
 /* how-those-guy */
-.how-those-guy{
+.how-those-guy {
     background: #f7f9fc;
     padding: 100px 0px;
 }
-.how-those-guy .head{}
-.how-those-guy .online-box{
+
+.how-those-guy .head {}
+
+.how-those-guy .online-box {
     position: relative;
     text-align: center;
     margin: 0px 0px 70px;
 }
-.how-those-guy .online-box .svg-box{
+
+.how-those-guy .online-box .svg-box {
     width: 75px;
     height: 75px;
     background: #fff;
@@ -2253,37 +2272,44 @@ footer .footer-bottom .privacy-links ul li a:hover {
     border: 4px solid #bfdbfe;
     transition: all .3s ease-in-out;
 }
-.how-those-guy .online-box:hover .svg-box{
+
+.how-those-guy .online-box:hover .svg-box {
     border-color: #60A5FA;
 }
-.how-those-guy .online-box .svg-box svg{
+
+.how-those-guy .online-box .svg-box svg {
     height: 30px;
     width: 30px;
     color: var(--main-color);
 }
-.how-those-guy .online-box .box{
+
+.how-those-guy .online-box .box {
     background: #fff;
     padding: 30px 30px;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0px 6px 11px 1px #80808073;
 }
-.how-those-guy .online-box .box h3{
+
+.how-those-guy .online-box .box h3 {
     font-size: 20px;
     font-weight: 600;
     margin: 0px 0px 10px;
 }
-.how-those-guy .online-box .box p{
+
+.how-those-guy .online-box .box p {
     font-size: 15px;
     line-height: 26px;
     margin: 0px 0px 10px;
 }
-.how-those-guy .online-box .box h6{
+
+.how-those-guy .online-box .box h6 {
     color: var(--main-color);
     font-size: 14px;
     line-height: 21px;
 }
-.how-those-guy .online-box .num{
+
+.how-those-guy .online-box .num {
     position: absolute;
     top: 0%;
     right: 0;
@@ -2296,11 +2322,12 @@ footer .footer-bottom .privacy-links ul li a:hover {
     border-radius: 50%;
 }
 
-.how-those-guy .online-box .num p{
+.how-those-guy .online-box .num p {
     color: #fff;
     font-size: 14px;
     font-weight: 600;
 }
+
 section.how-those-guy .row::before {
     content: "";
     height: 2px;
@@ -2315,5 +2342,129 @@ section.how-those-guy .row::before {
 section.how-those-guy .row {
     position: relative;
 }
+
 /* how-those-guy */
 /*********************** inner-page css close ***********************/
+
+/* modal-step */
+.delivery-step {}
+
+.delivery-step .modal-dialog {
+    margin-top: 120px;
+    max-width: 960px;
+}
+
+.delivery-step .modal-header {
+    border-bottom: 2px solid #E2E8EE;
+}
+
+.delivery-step .modal-header .main-img {}
+
+.delivery-step .modal-header .main-img img {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+
+.delivery-step .modal-body {
+    padding: 50px 80px;
+}
+
+.delivery-step .modal-body .steps-container {}
+
+.delivery-step .modal-body .steps-container .step {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.delivery-step .modal-body .steps-container .step.active {
+    display: block;
+}
+
+.delivery-step .modal-body .steps-container .step-1 {}
+
+.delivery-step .modal-body .steps-container .step-1 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 40px;
+}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #E2E8EE;
+    padding: 30px 50px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 0px #E2E8EE;
+    margin: 0px 0px 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box.active {
+  border: 1px solid #1D4ED8;
+  box-shadow: 0px 7px 0px #1D4ED8;
+}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box:hover {
+    background-color: #EAEFFF;
+}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box .txt {}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box .txt h3 {
+    font-size: 27px;
+    font-weight: 500;
+    color: #1D4ED8;
+    line-height: 40px;
+    margin: 0px 0px 5px;
+}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box .txt p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box .main-img {}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box .main-img img {
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+    margin: 0px 0px 7px;
+}
+
+.delivery-step .modal-body .steps-container .step-1 .store-box .main-img p {}
+
+.delivery-step .modal-header button.btn-close {
+    border: 2px solid #000;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    opacity: 1;
+}
+
+.delivery-step .modal-header button.btn-close:hover {
+    border: 2px solid #000;
+    background-color: transparent;
+}
+.delivery-step .modal-body .steps-container .step-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.delivery-step .modal-body .steps-container .step-btn .step-next{
+    padding: 17px 40px;
+    margin-top: 10px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 20px;
+}
+/* modal-step */
