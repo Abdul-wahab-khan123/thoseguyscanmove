@@ -2382,7 +2382,8 @@ section.how-those-guy .row {
 }
 
 .delivery-step .modal-body .steps-container .step-1 {}
-
+.delivery-step .modal-body .steps-container .step-3 .add-an h2,
+.delivery-step .modal-body .steps-container .step-2 h2,
 .delivery-step .modal-body .steps-container .step-1 h2 {
     text-align: center;
     font-size: 40px;
@@ -2404,8 +2405,8 @@ section.how-those-guy .row {
 }
 
 .delivery-step .modal-body .steps-container .step-1 .store-box.active {
-  border: 1px solid #1D4ED8;
-  box-shadow: 0px 7px 0px #1D4ED8;
+    border: 1px solid #1D4ED8;
+    box-shadow: 0px 7px 0px #1D4ED8;
 }
 
 .delivery-step .modal-body .steps-container .step-1 .store-box:hover {
@@ -2450,13 +2451,15 @@ section.how-those-guy .row {
     border: 2px solid #000;
     background-color: transparent;
 }
-.delivery-step .modal-body .steps-container .step-btn{
+
+.delivery-step .modal-body .steps-container .step-btn {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
 }
-.delivery-step .modal-body .steps-container .step-btn .step-next{
+
+.delivery-step .modal-body .steps-container .step-btn .step-next {
     padding: 17px 40px;
     margin-top: 10px;
     background-color: #1e40af;
@@ -2467,4 +2470,183 @@ section.how-those-guy .row {
     font-size: 20px;
     line-height: 20px;
 }
+
+.delivery-step .modal-body .steps-container .step-2 {}
+
+.delivery-step .modal-body .steps-container .step-2 h2 {
+    text-align: center;
+}
+
+.delivery-step .modal-body .steps-container .step-2 .where {}
+
+.delivery-step .modal-body .steps-container .step-2 .where .up-location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0px 0px 20px;
+    border: 1px solid #616D80;
+    padding: 17px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 0px #616D80;
+}
+
+.delivery-step .modal-body .steps-container .step-2 .where .up-location img {
+    height: 40px;
+    width: 40px;
+}
+
+.delivery-step .modal-body .steps-container .step-2 .where .up-location h5 {
+    font-size: 24px;
+    color: #616D80;
+    font-weight: 500;
+}
+
+.delivery-step .modal-body .steps-container .step-2 .where h6 {
+    text-align: center;
+    font-size: 23px;
+    color: var(--main-color);
+    font-weight: 600;
+    margin: 40px 0px 40px;
+}
+
+.delivery-step .modal-body .steps-container .step-2 .where .ifream-box {}
+
+.delivery-step .modal-body .steps-container .step-2 .where .ifream-box iframe {
+    width: 100%;
+}
+.delivery-step .modal-body .steps-container .step-3{}
+.delivery-step .modal-body .steps-container .step-3 .add-an{}
+.delivery-step .modal-body .steps-container .step-3 .add-an h2{}
+.delivery-step .modal-body .steps-container .step-3 .add-an .main-input{
+    margin: 0px 0px 40px;
+}
+.delivery-step .modal-body .steps-container .step-3 .add-an h4{
+    text-align: center;
+    font-size: 21px;
+    margin: 0px 0px 25px;
+    color: #253B54;
+}
+.delivery-step .modal-body .steps-container .step-3 .add-an h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0px 0px 40px;
+}
+.delivery-step .modal-body .steps-container .step-3 .add-an .items-box{
+    margin: 0px 0px 40px;
+}
+.delivery-step .modal-body .steps-container .step-3 .add-an .items-box .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #E2E8EE;
+    padding: 13px 25px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 0px #E2E8EE;
+    margin: 0px 0px 10px;
+    transition: all .3s ease-in-out;
+}
+.delivery-step .modal-body .steps-container .step-3 .add-an .items-box .box:hover{
+    box-shadow: 0px 5px 0px var(--main-color);
+    border: 1px solid var(--main-color);
+    background-color: #EAEFFF;
+}
+.delivery-step .modal-body .steps-container .step-3 .add-an .items-box .box h5{
+    font-size: 21px;
+    font-weight: 600;
+}
+.delivery-step .modal-body .steps-container .step-3 .add-an .items-box .box img{
+    height: 50px;
+    width: 50px;
+}
+
 /* modal-step */
+
+
+
+/* Overlay */
+.delivery-step .modal-body .steps-container .step-2 .where .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    /* blur effect */
+    background: rgba(0, 0, 0, 0.3);
+    /* slight dark overlay */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* Popup box */
+.delivery-step .modal-body .steps-container .step-2 .where .popup-box {
+    background: white;
+    padding: 40px 80px;
+    border-radius: 10px;
+    max-width: 960px;
+    width: 90%;
+    position: relative;
+    animation: popupShow 0.3s ease-in-out;
+    height: 500px;
+}
+
+/* Close button */
+.delivery-step .modal-body .steps-container .step-2 .where .popup-box .close-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #616D80;
+}
+
+.delivery-step .modal-body .steps-container .step-2 .where .popup-overlay .popup-box h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 0px 40px 0px;
+    color: #616D80;
+    text-transform: uppercase;
+}
+
+.delivery-step .modal-body .steps-container .main-input {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #616D80;
+    padding: 20px 25px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 0px #616D80;
+}
+
+.delivery-step .modal-body .steps-container .main-input i {
+    position: absolute;
+    top: 34%;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.delivery-step .modal-body .steps-container input {
+    border: 0;
+    padding: 0px 0px 0px 45px;
+    font-size: 23px;
+    font-weight: 500;
+    width: 100%;
+}
+
+/* Animation */
+@keyframes popupShow {
+    0% {
+        transform: scale(0.7);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

@@ -248,7 +248,63 @@
 // // img-zoom js end
 
 
+const boxes = document.querySelectorAll('.store-box');
 
+boxes.forEach(box => {
+    box.addEventListener('click', () => {
+        boxes.forEach(b => b.classList.remove('active')); // Remove active from others
+        box.classList.add('active'); // Add to clicked one
+    });
+});
+
+
+
+let currentStep = 1;
+
+function showStep(step) {
+    const totalSteps = 8;
+    for (let i = 1; i <= totalSteps; i++) {
+        document.getElementById(`step-${i}`).style.display = i === step ? "block" : "none";
+    }
+}
+
+function nextStep() {
+    if (currentStep < 8) {
+        currentStep++;
+        showStep(currentStep);
+    }
+}
+
+function prevStep() {
+    if (currentStep > 1) {
+        currentStep--;
+        showStep(currentStep);
+    }
+}
+
+// Optional form submit
+document.getElementById("multi-step-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Form submitted!");
+});
+
+
+
+function openPopup() {
+    document.getElementById('popupOverlay').style.display = 'flex';
+}
+
+function closePopup() {
+    document.getElementById('popupOverlay').style.display = 'none';
+}
+
+function openPopup() {
+    document.getElementById('drop-popupOverlay').style.display = 'flex';
+}
+
+function closePopup() {
+    document.getElementById('drop-popupOverlay').style.display = 'none';
+}
 
 
 
